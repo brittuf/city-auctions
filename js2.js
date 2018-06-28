@@ -15083,10 +15083,7 @@ if (Xi.Main = Xi.Main || {}, void 0 !== Wi && Wi(Xi.Main, "Main", void 0), "func
     const n = r(1),
     a = r(0).abi,
     i = "0xa2c5718723161f48fe1be09bee40a8fa347df520";
-    //i = "0xd01d4d486db45c10ae2828b88ae763913350e195";
     window.addEventListener("load", function() {
-        //web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
-        //web3.eth.defaultAccount = web3.eth.accounts[0];
         if ("undefined" != typeof web3) {
             window.contract = web3.eth.contract(a).at(i), contract.timeout(function(e, t) {
                 window.app = n.Main.embed(document.getElementById("main"), {
@@ -15125,8 +15122,6 @@ if (Xi.Main = Xi.Main || {}, void 0 !== Wi && Wi(Xi.Main, "Main", void 0), "func
                 ].join("\n")
             })
         } else {
-
-            //document.getElementById("main").innerHTML = ["<div>", '  <div class="has-text-centered">', '    <h1 class="page-title is-size-1">Auction</h1>', "  </div>", '  <div class="section">', '    <div class="columns is-centered">', '      <div class="column is-narrow">', '        <div class="notification is-danger">', "          You must install MetaMask in order to experience auction.", "        </div>", "      </div>", "    </div>", "  </div>", "</div>"].join("\n")
             document.getElementById("main").innerHTML = ["<div>", '  <div class="has-text-centered">', 
             '    <h1 class="page-title is-size-1">Auction</h1>', "  </div>", '  <div class="section">', 
             '    <div class="columns is-centered">', '      <div class="column is-narrow">', 

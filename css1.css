@@ -51,7 +51,10 @@ textarea {
   margin: 0; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  height: 100%;
+  margin: 0;
+}
 
 * {
   box-sizing: inherit; }
@@ -117,8 +120,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5; 
-  
-  
+  background: url(downtown-3088351_1920.png) bottom left no-repeat fixed;
+   background-size: cover;
+  padding-bottom: 2rem;
 }
 
 a {
@@ -6993,8 +6997,17 @@ label.panel-block {
   padding: 1rem; }
 
 .page-title {
-  letter-spacing: 2rem;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .card-footer-item.owner-box {
-  padding: 0.25rem; }
+  padding: 0.25rem; 
+}
+
+#info {
+    background: #ffffff;
+    opacity: 0.85;
+    padding: 1em;
+    margin-left: 8.33333%;
+    margin-right: 16.66667%;
+  }
