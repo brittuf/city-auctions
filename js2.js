@@ -14910,7 +14910,7 @@ Wi = ln({
                         }
                     }, {
                         ctor: "::",
-                        _0: sn("All auctions ends after 24 hours of inactivity "),
+                        _0: sn("All auctions end after 24 hours of inactivity "),
                         _1: {
                             ctor: "[]"
                         }
