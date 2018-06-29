@@ -1,4 +1,4 @@
-//var Web3 = require('web3');
+/*var Web3 = require('web3');*/
 ! function(e) {
     var t = {};
 
@@ -14588,7 +14588,8 @@ Ui = t(function(e, t) {
 Hi = r(function(e, t, r) {
     return u(bn, {
         ctor: "::",
-        _0: wn("columns"),
+        //_0: wn("columns"),
+        _0: wn(),
         _1: {
             ctor: "[]"
         }
@@ -14596,7 +14597,8 @@ Hi = r(function(e, t, r) {
         ctor: "::",
         _0: u(bn, {
             ctor: "::",
-            _0: wn("column row-title is-1"),
+            //_0: wn("column row-title is-1"),
+            _0: wn("column row-title"),
             _1: {
                 ctor: "[]"
             }
@@ -14671,7 +14673,7 @@ Qi = function(e) {
                     }
                 }, {
                     ctor: "::",
-                    _0: c(Hi, "💰250,000   1.25x ", e, u(Vi, {
+                    _0: c(Hi, "💰250,000   1.25×", e, u(Vi, {
                         ctor: "::",
                         _0: 0,
                         _1: {
@@ -14688,7 +14690,7 @@ Qi = function(e) {
                     }, e.bags)),
                     _1: {
                         ctor: "::",
-                        _0: c(Hi, "💰500,000   1.5x", e, u(Vi, {
+                        _0: c(Hi, "💰500,000   1.5×", e, u(Vi, {
                             ctor: "::",
                             _0: 1,
                             _1: {
@@ -14705,7 +14707,7 @@ Qi = function(e) {
                         }, e.bags)),
                         _1: {
                             ctor: "::",
-                            _0: c(Hi, "Tax Collector   2.0x", e, u(Vi, {
+                            _0: c(Hi, "😈 Tax Collector   2.0×", e, u(Vi, {
                                 ctor: "::",
                                 _0: 2,
                                 _1: {
@@ -14734,7 +14736,7 @@ Qi = function(e) {
                     ctor: "::",
                     _0: mt(e.bagSales) ? u(bn, {
                         ctor: "::",
-                        _0: wn("column is-2"),
+                        _0: wn("column is-2 sales"),
                         _1: {
                             ctor: "[]"
                         }
@@ -14766,7 +14768,7 @@ Qi = function(e) {
                         }
                     }) : u(bn, {
                         ctor: "::",
-                        _0: wn("column is-2"),
+                        _0: wn("column is-2 sales"),
                         _1: {
                             ctor: "[]"
                         }
@@ -14864,7 +14866,7 @@ Wi = ln({
                 }
             }, {
                 ctor: "::",
-                _0: sn("Auction"),
+                _0: sn("The City Auctions"),
                 _1: {
                     ctor: "[]"
                 }
@@ -14904,7 +14906,7 @@ Wi = ln({
                     ctor: "::",
                     _0: u(mn, {
                         ctor: "::",
-                        _0: wn("sub-title"),
+                        _0: wn("sub-title2"),
                         _1: {
                             ctor: "[]"
                         }
@@ -15109,16 +15111,16 @@ if (Xi.Main = Xi.Main || {}, void 0 !== Wi && Wi(Xi.Main, "Main", void 0), "func
                 }).get((e, t) => {
                     t.forEach(e => o(app, e))
                 })
-                document.getElementById("info").innerHTML = [ 
+                document.getElementById("faq").innerHTML = [ 
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">What is this?</h2>',
-                '<p>This is a Hot Potato Auction that will get you ETH for being outbid, and in-game currency or a role if you win the auction. There are 3 auctions: a 1.25x where the winning bidder receives <span style="white-space:nowrap;">💰250,000;</span> a 1.5x where the winning bidder receives <span style="white-space:nowrap;">💰500,000;</span> and a 2x where the winning bidder receives the <em>Tax Collector</em> role.</p>',
+                '<p>This is a Hot Potato Auction that will get you ETH for being outbid, and in-game currency or a role if you win the auction. There are 3 auctions: a 1.25&times; where the winning bidder receives <span style="white-space:nowrap;">💰250,000;</span> a 1.5&times; where the winning bidder receives <span style="white-space:nowrap;">💰500,000;</span> and a 2&times; where the winning bidder receives the <em>Tax Collector</em> role.</p>',
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">What do the bidders get?</h2>',
-                '<p>When you bid, you are paying 1.25x, 1.5x, or 2x the amount the last person bid. The last bidder receives 90% of the profit from the new winning bid. The 10% fee will help allow us to offer great prizes in the store, including ETH.</p>',
+                '<p>When you bid, you are paying 1.25&times;, 1.5&times;, or 2&times; the amount the last person bid. The last bidder receives 90% of the profit from the new winning bid. The 10% fee will help allow us to offer great prizes in the store, including ETH.</p>',
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">How does it end?</h2>',
-                '<p>The auction ends after 24 hours of inactivity. The winning bidder must DM @Brittuf /Mr.Contest\\ on <a href="https://discord.gg/fMdUjxc">Discord</a> to claim their prize.</p>',
+                '<p>The auction ends after 24 hours of inactivity. The winning bidder must DM @Brittuf /Mr.Contest\\ on <a href="https://discord.gg/XnpFUtx">Discord</a> to claim their prize.</p>',
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">What is the Tax Collector?</h2>',
                 '<p>The Tax Collector role will be very valuable. As Tax Collector, you will receive 💰 from the casino and the players. You are guaranteed at least <span style="white-space:nowrap;">💰750,000</span>, but most of the time you will receive more. You will have this role until the next auction ends.</p>',
-                '<p style="margin-top:1em">If you have any questions, pop into our <a href="https://discord.gg/fMdUjxc">Discord</a>.</p>',
+                '<p style="margin-top:1em">If you have any questions, pop into our <a href="https://discord.gg/XnpFUtx">Discord</a>.</p>',
                 ].join("\n")
             })
         } else {
