@@ -14671,7 +14671,7 @@ Qi = function(e) {
                     }
                 }, {
                     ctor: "::",
-                    _0: c(Hi, "250,000   1.25x ", e, u(Vi, {
+                    _0: c(Hi, "💰250,000   1.25x ", e, u(Vi, {
                         ctor: "::",
                         _0: 0,
                         _1: {
@@ -14688,7 +14688,7 @@ Qi = function(e) {
                     }, e.bags)),
                     _1: {
                         ctor: "::",
-                        _0: c(Hi, "500,000   1.5x", e, u(Vi, {
+                        _0: c(Hi, "💰500,000   1.5x", e, u(Vi, {
                             ctor: "::",
                             _0: 1,
                             _1: {
@@ -14910,7 +14910,7 @@ Wi = ln({
                         }
                     }, {
                         ctor: "::",
-                        _0: sn("All auctions ends after 24 hours of inactivity "),
+                        _0: sn("All auctions end after 24 hours of inactivity "),
                         _1: {
                             ctor: "[]"
                         }
