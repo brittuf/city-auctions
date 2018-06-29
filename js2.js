@@ -14588,8 +14588,7 @@ Ui = t(function(e, t) {
 Hi = r(function(e, t, r) {
     return u(bn, {
         ctor: "::",
-        //_0: wn("columns"),
-        _0: wn("columns"),
+        _0: wn("notcolumns"),
         _1: {
             ctor: "[]"
         }
