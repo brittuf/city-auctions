@@ -15125,7 +15125,7 @@ if (Xi.Main = Xi.Main || {}, void 0 !== Wi && Wi(Xi.Main, "Main", void 0), "func
             })
         } else {
             document.getElementById("main").innerHTML = ["<div>", '  <div class="has-text-centered">', 
-            '    <h1 class="page-title is-size-1">Auction</h1>', "  </div>", '  <div class="section">', 
+            '    <h1 class="page-title is-size-1">The City Auctions</h1>', "  </div>", '  <div class="section">', 
             '    <div class="columns is-centered">', '      <div class="column is-narrow">', 
             '        <div class="notification is-danger">', "          You must install MetaMask in order to experience auction.", 
             "        </div>", "      </div>", "    </div>", "  </div>", 
