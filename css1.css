@@ -7000,6 +7000,10 @@ label.panel-block {
   font-family: 'Abril Fatface', cursive;
 }
 
+.page-title, sub-title {
+  background: rgba(255,255,255,0.8);
+}
+
 .card-footer-item.owner-box {
   padding: 0.25rem; 
 }
