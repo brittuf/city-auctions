@@ -14672,7 +14672,7 @@ Qi = function(e) {
                     }
                 }, {
                     ctor: "::",
-                    _0: c(Hi, "ðŸ’°500,000+Auction Sniper Role   1.25Ã—ETH", e, u(Vi, {
+                    _0: c(Hi, "💰500,000+Auction Sniper Role   1.25x ETH", e, u(Vi, {
                         ctor: "::",
                         _0: 0,
                         _1: {
@@ -14689,7 +14689,7 @@ Qi = function(e) {
                     }, e.bags)),
                     _1: {
                         ctor: "::",
-                        _0: c(Hi, "ðŸ’°1 Million+Auction Sniper Role   1.5Ã—ETH", e, u(Vi, {
+                        _0: c(Hi, "💰1 Million+Auction Sniper Role   1.5x ETH", e, u(Vi, {
                             ctor: "::",
                             _0: 1,
                             _1: {
@@ -14706,7 +14706,7 @@ Qi = function(e) {
                         }, e.bags)),
                         _1: {
                             ctor: "::",
-                            _0: c(Hi, "ðŸ˜ˆ Tax Collector role+2 Million   2.0Ã—ETH", e, u(Vi, {
+                            _0: c(Hi, "Tax Collector Role+💰2 Million   2.0x ETH", e, u(Vi, {
                                 ctor: "::",
                                 _0: 2,
                                 _1: {
@@ -15112,15 +15112,15 @@ if (Xi.Main = Xi.Main || {}, void 0 !== Wi && Wi(Xi.Main, "Main", void 0), "func
                 })
                 document.getElementById("faq").innerHTML = [ 
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">What is this?</h2>',
-                '<p>This is a Hot Potato Auction that will get you ETH for being outbid, and in-game currency or a role if you win the auction. There are 3 auctions: a 1.25&times; where the winning bidder receives <span style="white-space:nowrap;">ðŸ’°250,000;</span> a 1.5&times; where the winning bidder receives <span style="white-space:nowrap;">ðŸ’°500,000;</span> and a 2&times; where the winning bidder receives the <em>Tax Collector</em> and Auction Sniper Role role.</p>',
+                '<p>This is a Hot Potato Auction that will get you ETH for being outbid, and in-game currency or a role if you win the auction. There are 3 auctions: a 1.25&times; where the winning bidder receives <span style="white-space:nowrap;">💰250,000;</span> a 1.5&times; where the winning bidder receives <span style="white-space:nowrap;">💰500,000;</span> and a 2&times; where the winning bidder receives the <em>Tax Collector</em> and Auction Sniper Role role.</p>',
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">What do the bidders get?</h2>',
                 '<p>When you bid, you are paying 1.25&times;, 1.5&times;, or 2&times; the amount the last person bid. The last bidder receives 90% of the profit from the new winning bid. The 10% fee will help allow us to offer great prizes in the store, including ETH.</p>',
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">How does it end?</h2>',
                 '<p>The auction ends after 24 hours of inactivity. The winning bidder must DM @Brittuf /Mr.Contest\\ on <a href="https://discord.gg/XnpFUtx">Discord</a> to claim their prize.</p>',
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">What is the Tax Collector?</h2>',
-                '<p>The Tax Collector role will be very valuable. As Tax Collector, you will receive ðŸ’° from the casino and the players. You get <span style="white-space:nowrap;">ðŸ’°1 Million just to start</span>.. You will have this role until the next auction ends.</p>',
+                '<p>The Tax Collector role will be very valuable. As Tax Collector, you will receive 💰 from the casino and the players. You get <span style="white-space:nowrap;">💰1 Million just to start</span>.. You will have this role until the next auction ends.</p>',
                 '<h2 style="font-weight:bold; font-size:1.5em; margin-top: 0.5em;">What is the Auction Sniper role?</h2>',
-                '<p>The Auction Sniper role will earn you ðŸ’°25,000 everday, until the auction is won by someone else.</p>',
+                '<p>The Auction Sniper role will earn you 💰25,000 everday, until the auction is won by someone else.</p>',
          
                 '<p style="margin-top:1em">If you have any questions, pop into our <a href="https://discord.gg/XnpFUtx">Discord</a>.</p>',
                 ].join("\n")
