@@ -14706,7 +14706,7 @@ Qi = function(e) {
                         }, e.bags)),
                         _1: {
                             ctor: "::",
-                            _0: c(Hi, "Tax Collector Role+💰2 Million   2.0x ETH", e, u(Vi, {
+                            _0: c(Hi, "Tax Collector Role+💰2 Million+PS4/XB1 Madden 19(Digital Copy)   2.0x ETH", e, u(Vi, {
                                 ctor: "::",
                                 _0: 2,
                                 _1: {
