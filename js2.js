@@ -14672,7 +14672,7 @@ Qi = function(e) {
                     }
                 }, {
                     ctor: "::",
-                    _0: c(Hi, "💰500,000+Auction Sniper Role   1.25x ETH", e, u(Vi, {
+                    _0: c(Hi, "💰1 Millioin/.05ETH Bid+Auction Sniper Role   1.25x ETH", e, u(Vi, {
                         ctor: "::",
                         _0: 0,
                         _1: {
@@ -14689,7 +14689,7 @@ Qi = function(e) {
                     }, e.bags)),
                     _1: {
                         ctor: "::",
-                        _0: c(Hi, "💰1 Million+Auction Sniper Role   1.5x ETH", e, u(Vi, {
+                        _0: c(Hi, "💰1 Million/.05ETH Bid+Auction Sniper Role   1.5x ETH", e, u(Vi, {
                             ctor: "::",
                             _0: 1,
                             _1: {
